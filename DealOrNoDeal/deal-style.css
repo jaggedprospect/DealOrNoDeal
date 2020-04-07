@@ -1,0 +1,123 @@
+/*============================
+Stylesheet for Deal or No Deal
+============================*/
+
+/*=== Tag Styles ===*/
+*{
+    text-align: center;
+    font-family: "Arial"; /*can be changed*/
+}
+
+h1, h2, h3, h4, h5 ,h6, label, img, td{ color: white; }
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+/*=== Classes ===*/
+html.index{ 
+    background: url("assets/backgrounds/deal-or-nodeal-background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html.plain{ 
+    background: url("assets/backgrounds/deal-or-nodeal-background-notext.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html.caseEnd{
+    background: url("assets/backgrounds/deal-or-nodeal-background-caseend.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html.bankerEnd{
+    background: url("assets/backgrounds/deal-or-nodeal-background-bankerend.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html.choose{
+    background: url("assets/backgrounds/deal-or-nodeal-background-choose.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+html.general{
+    background: url("assets/backgrounds/deal-or-nodeal-background-general.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div.trans-white{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.trans-white-notop{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.trans-white-special{ background-color: rgba(0, 0, 0, 0.6); }
+
+div.opencase{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 50%;
+    display: inline-block;
+}
+
+table.case-table{ border-spacing: 5px 5px; }
+
+table.score-table{
+    color: white;
+    border-spacing: 40px 5px;
+}
+
+table.selected{
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+td.case-cell{
+    text-align: center;
+    width: 99px;
+    height: 84px;
+    background-image: url("assets/briefcases/briefcase-small.png");
+}
+
+td.left{ text-align: left; }
+
+td.right{ text-align: right; }
+
+td.selected{ color: rgb(246, 240, 10); }
+
+img.final{
+    /*briefcase size: 200x159px, 1.5 multiplier*/
+    width: 300px;
+    height: 239px;
+}
+
+img.float-left{ float: left; }
+
+.index-margin{ margin-top: 30%; }
